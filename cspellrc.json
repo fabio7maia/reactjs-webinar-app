@@ -3,6 +3,6 @@
   "version": "0.2",
   "name": "Run Config",
   "files": ["**/*"],
-  "ignorePaths": ["./package-lock.json", "yarn.lock"],
+  "ignorePaths": ["./package-lock.json", "./yarn.lock", "./yarn-error.log"],
   "import": ["./cspell.json"]
 }
