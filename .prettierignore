@@ -1,0 +1,12 @@
+.vscode/
+[sS]amples/
+CHANGELOG.md
+README.md
+cspell.json
+**/dist/
+[tT]emp/
+lerna.json
+tsconfig*.json
+packages/*/dist/
+**/package-lock.json
+**/yarn.lock

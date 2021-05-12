@@ -1,6 +1,10 @@
 {
   "name": "reactjs-scaffold",
   "license": "MIT",
+  "author": {
+    "email": "fabio7maia@gmail.com",
+    "name": "Fábio Maia"
+  },
   "version": "0.1.0",
   "dependencies": {
     "react": "^17.0.2",
@@ -12,18 +16,16 @@
     "test": "react-scripts test",
     "test:coverage": "react-scripts test -- --coverage",
     "lint": "eslint . --ignore-path ./.gitignore",
+    "lint:spell": "npx cspell -c cspellrc.json",
     "lint:fix": "npm run lint -- --fix",
-    "format": "prettier --write './src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run test:coverage"
-    }
+    "lint:all": "npm run lint && npm run lint:spell",
+    "format": "prettier --write './src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "git:pre-commit": "lint-staged",
+    "git:pre-push": "npm run test:coverage"
   },
   "lint-staged": {
     "./**/*.{js,jsx,ts,tsx}": [
-      "npm run lint:fix"
+      "npm run lint:all"
     ]
   },
   "browserslist": {
@@ -48,6 +50,7 @@
     "@types/react-dom": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.23.0",
     "@typescript-eslint/parser": "^4.23.0",
+    "cspell": "^5.4.1",
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
@@ -55,7 +58,6 @@
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "eslint-plugin-spellcheck": "^0.0.17",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.0",

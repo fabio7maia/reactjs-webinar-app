@@ -1,7 +1,7 @@
 module.exports = {
   root: true, // Make sure eslint picks up the config at the root of the directory
   parser: '@typescript-eslint/parser',
-  plugins: ['spellcheck', 'simple-import-sort'],
+  plugins: ['simple-import-sort'],
   parserOptions: {
     ecmaVersion: 11, // Use the latest ecmascript standard
     sourceType: 'module', // Allows using import/export statements
@@ -32,24 +32,6 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
-    'spellcheck/spell-checker': [
-      1,
-      {
-        comments: true,
-        strings: true,
-        identifiers: true,
-        lang: 'en_US',
-        skipWords: ['dict', 'utils'],
-        skipIfMatch: [
-          'http://[^s]*',
-          '^[-\\w]+/[-\\w\\.]+$' //For MIME Types
-        ],
-        skipWordIfMatch: [
-          // '^foobar.*$' // words that begin with foobar will not be checked
-        ],
-        minLength: 3
-      }
-    ],
     'prettier/prettier': ['error', {}, { usePrettierrc: true }] // Use our .prettierrc file as source
   }
 };
