@@ -1,46 +1,52 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React JS
 
-## Available Scripts
+Este projeto foi criado com [Create React App](https://github.com/facebook/create-react-app) e tem como principal objetivo servir como base para a criação de Aplicações React JS, tendo integrado um conjunto de ferramentas de desenvolvimento para apoio e melhoria contínua do código produzido.
 
-In the project directory, you can run:
+>Projeto em construção!
+
+## Scripts
+
+O projeto conta com vários scripts de apoio ao desenvolvimento, tais como:  
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Corre a app em modo desenvolvimento. Abrir o url [http://localhost:3000](http://localhost:3000) para ver a aplicação React JS.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A página é automaticamente refrescada quando são feitas alterações.
+
+É possível consultar os vários erros/avisos de lint na consola.
+
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Corre os testes em modo interativo estando à escuta por alterações, de forma a refrescar o código e correr novamente os testes.
+
+Para mais informações consultar [running tests](https://facebook.github.io/create-react-app/docs/running-tests).
+  
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Cria os artefactos da Aplicação React JS para o modo Produção, colocando na folder `build`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Nesta compilação são aplicadas várias otimizações para uma melhor perfomance.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para mais informações consultar [deployment](https://facebook.github.io/create-react-app/docs/deployment).
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Ferramentas
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O projeto com várias ferramentas de apoio ao desenvolvimento, que permite apoiar na qualidade do código desenvolvido, tais como:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> O objetivo é continuar a incluir novas ferramentas e utilitários 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [X] [Typescript](https://www.typescriptlang.org)
+- [X] [Eslint](https://eslint.org)
+- [X] [Prettier](https://eslint.org)
+- [X] [Code spell](https://www.npmjs.com/package/cspell)
+- [X] [Husky](https://typicode.github.io/husky)
+- [X] [Stylelint](https://stylelint.io)
+- [X] [Testing library](https://testing-library.com/docs/react-testing-library/intro)
+- [ ] [Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [ ] [Redux](https://redux.js.org)
+- [ ] ...
