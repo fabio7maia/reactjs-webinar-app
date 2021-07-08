@@ -3,6 +3,6 @@
   "version": "0.2",
   "name": "Run Config",
   "files": ["**/*"],
-  "ignorePaths": ["./package-lock.json", "./yarn.lock", "./yarn-error.log"],
+  "ignorePaths": ["./package-lock.json", "./yarn.lock", "./yarn-error.log", "./craco.config.js", "./README.md", "./tsconfig.paths.json", "./cspellrc.json"],
   "import": ["./cspell.json"]
 }
