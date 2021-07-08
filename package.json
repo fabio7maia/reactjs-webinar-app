@@ -18,18 +18,18 @@
     "lint": "eslint . --ignore-path ./.gitignore",
     "lint:spell": "npx cspell -c cspellrc.json",
     "lint:styles": "stylelint src/**/*css",
-    "lint:fix": "npm run lint -- --fix",
-    "lint:all": "npm run lint && npm run lint:spell && npm run lint:styles",
+    "lint:fix": "yarn run lint -- --fix",
+    "lint:all": "yarn run lint && yarn run lint:spell && yarn run lint:styles",
     "format": "prettier --write './src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "git:pre-commit": "lint-staged",
-    "git:pre-push": "npm run test:coverage",
+    "git:pre-push": "yarn run test:coverage",
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
   },
   "lint-staged": {
     "./**/*.{js,jsx,ts,tsx}": [
-      "npm run lint:all"
+      "yarn run lint:all"
     ]
   },
   "browserslist": {
