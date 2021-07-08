@@ -1,3 +1,4 @@
+import { Example } from '@components';
 import logo from './logo.svg';
 
 export const App: React.FC = () => {
@@ -5,6 +6,7 @@ export const App: React.FC = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Example />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
