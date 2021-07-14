@@ -8,3 +8,6 @@ repo
 repos
 TTFB
 webfonts
+todos
+reactjs
+consts

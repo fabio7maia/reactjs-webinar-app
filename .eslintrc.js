@@ -31,6 +31,7 @@ module.exports = {
   ],
   rules: {
     'react/react-in-jsx-scope': 'off',
+    'react/prop-types': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     'prettier/prettier': ['error', {}, { usePrettierrc: true }] // Use our .prettierrc file as source
   }
