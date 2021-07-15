@@ -1,12 +1,12 @@
 import { render, screen } from '@testing-library/react';
 import { TestComponent } from '@components';
-import { App } from '../app';
+import { TopBar } from '..';
 
-describe('App', () => {
+describe('TopBar', () => {
   test('render works', () => {
     render(
       <TestComponent>
-        <App />
+        <TopBar />
       </TestComponent>
     );
 
