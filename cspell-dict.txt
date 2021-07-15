@@ -11,4 +11,4 @@ webfonts
 todos
 reactjs
 consts
-Bankit
+eBankit
