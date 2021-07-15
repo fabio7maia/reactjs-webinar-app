@@ -11,7 +11,7 @@ export const App: React.FC = () => {
   const { company, language } = useBaseState();
   const platform = React.useRef(window.innerWidth < 720 ? Platform.mobile : Platform.desktop);
 
-  const padding = `${0.05 * window.innerWidth}px`;
+  const padding = `50px ${0.05 * window.innerWidth}px`;
 
   return (
     <AppRoot company={company} language={language} platform={platform.current}>
