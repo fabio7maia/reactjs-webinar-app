@@ -48,15 +48,11 @@ export const TopBar: React.FC = () => {
           value={company}
           onChange={handleOnChangeCompany}
           items={[
-            { label: 'IT Sector', value: 'company1' },
-            { label: 'eBankit', value: 'company2' }
+            { label: 'Light', value: 'company1' },
+            { label: 'Dark', value: 'company2' }
           ]}
           style={{ width: '200px' }}
         />
-        {/* <select onChange={handleOnChangeCompany} value={company}>
-          <option value={Company.company1}>Company 1</option>
-          <option value={Company.company2}>Company 2</option>
-        </select> */}
       </Block>
     </Block>
   );

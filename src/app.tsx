@@ -1,7 +1,7 @@
 import React from 'react';
 import { AppRoot, Block } from '@reactjs-webinar/general';
 import { Theme } from '@reactjs-webinar/theme';
-import { company1Theme, company2Theme } from '@reactjs-webinar/theme/dist/consts';
+import { darkTheme, lightTheme } from '@reactjs-webinar/theme/dist/consts';
 import { TopBar } from '@components';
 import { Todos } from '@screens';
 import { useBaseState } from '@store';
@@ -15,7 +15,7 @@ export const App: React.FC = () => {
 
   return (
     <AppRoot company={company} language={language} platform={platform.current}>
-      <Theme theme={company === Company.company1 ? company1Theme : company2Theme}>
+      <Theme theme={company === Company.company1 ? lightTheme : darkTheme}>
         <Block style={{ width: '100vw', minHeight: '100vh' }}>
           <TopBar />
           <Block

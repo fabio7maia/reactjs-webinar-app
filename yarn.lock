@@ -1937,15 +1937,15 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
-"@reactjs-webinar/general@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@reactjs-webinar/general/-/general-0.6.0.tgz#5680ef9243ed7c67faed90edc37910a010b9516d"
-  integrity sha512-5l7bSDTwHbTEYLrYZ47/JIB3I4GbCDwmZJeRv1rIvpbxtk98tjpRgjVSsj6BGdgAODMRLrqQJVBqidA5YF/qMQ==
+"@reactjs-webinar/general@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@reactjs-webinar/general/-/general-0.8.0.tgz#6dda1e4129ce0672c4982147d226eca4efbc4fc8"
+  integrity sha512-d3XUM8VBZbJhclvfeCua149vnxSM9nWByZsU9UZx3+461d8lYUmWke7IdnxNmOZvQEV8VFVC7VlQAHsOze16Pg==
 
-"@reactjs-webinar/theme@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@reactjs-webinar/theme/-/theme-0.3.0.tgz#3f7547ae020acbcfa33dc8ea5589560211fb6ef2"
-  integrity sha512-6Ucj5PVT+5gpOMx44pXLeL4cFuWyTqVsknL+105cY+u3Un2KImtWSNYlAOPYRdB/fPOMh00i2sCBz6IQ1BFnag==
+"@reactjs-webinar/theme@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@reactjs-webinar/theme/-/theme-0.4.0.tgz#25fc47a87228e5a042af9fca7017a99a52e651cd"
+  integrity sha512-oGvblwQzQyDYcfNpCStj03LKfOq7gpdoow3Js8lFCs2y2o6kNfahDsRCM0KrmcsEPoOVyl+rcE3E5rrakGVtDw==
 
 "@rollup/plugin-node-resolve@^7.1.1":
   version "7.1.3"
